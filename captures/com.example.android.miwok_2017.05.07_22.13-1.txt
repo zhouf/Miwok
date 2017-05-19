@@ -1,0 +1,55 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1bdf7ee com.example.android.miwok/.MainActivity filter 2a56cfb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Registered ContentProviders:
+  com.example.android.miwok/com.android.tools.fd.runtime.InstantRunContentProvider:
+    Provider{f81448f com.example.android.miwok/com.android.tools.fd.runtime.InstantRunContentProvider}
+
+ContentProvider Authorities:
+  [com.example.android.miwok.com.android.tools.fd.runtime.InstantRunContentProvider]:
+    Provider{f81448f com.example.android.miwok/com.android.tools.fd.runtime.InstantRunContentProvider}
+      applicationInfo=ApplicationInfo{287f31c com.example.android.miwok}
+
+Key Set Manager:
+  [com.example.android.miwok]
+      Signing KeySets: 5
+
+Packages:
+  Package [com.example.android.miwok] (d4e46d1):
+    userId=10063
+    pkg=Package{39d3b25 com.example.android.miwok}
+    codePath=/data/app/com.example.android.miwok-2
+    resourcePath=/data/app/com.example.android.miwok-2
+    legacyNativeLibraryDir=/data/app/com.example.android.miwok-2/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=15 targetSdk=25
+    versionName=1.0
+    splits=[base, lib_dependencies_apk, lib_slice_0_apk, lib_slice_1_apk, lib_slice_2_apk, lib_slice_3_apk, lib_slice_4_apk, lib_slice_5_apk, lib_slice_6_apk, lib_slice_7_apk, lib_slice_8_apk, lib_slice_9_apk]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{287f31c com.example.android.miwok}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.example.android.miwok
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2017-05-07 14:13:04
+    firstInstallTime=2017-05-07 13:41:26
+    lastUpdateTime=2017-05-07 14:13:04
+    signatures=PackageSignatures{1d2dc37 [eb86cdff]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0: ceDataInode=21316 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [com.example.android.miwok]
+    Instruction Set: x86_64
+      path: /data/app/com.example.android.miwok-2/base.apk
+      status: /data/app/com.example.android.miwok-2/oat/x86_64/base.odex [compilation_filter=interpret-only, status=kOat
+      UpToDate]
